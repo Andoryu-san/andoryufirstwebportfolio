@@ -3,3 +3,44 @@ html, body, ul {
 	margin: 0;
 	padding: 0;
 }
+
+body {
+	font-family: 'Chakra Petch', sans-serif;
+	font-family: 'Montserrat', sans-serif;
+}
+
+nav {
+	text-align: center; /* Center the navigation items */
+}
+
+nav ul {
+	list-style-type: none;
+	display: inline-block; /* Display the list horizontally */
+}
+
+nav ul li {
+	display: inline-block;
+	margin-right: 20px; /* Adjust the spacing between navigation items */
+	margin-top: 20px;
+	background-color: #35155d;
+	border-radius: 15px;
+}
+
+nav ul li:last-child {
+	margin-right: 0; /* Remove margin from the last navigation item */
+}
+
+nav ul li a {
+	color: #512b81;
+	text-decoration: none;
+	font-size: 24px; /* Increase the font size */
+	padding: 10px; /* Add spacing around the navigation items */
+}
+
+.mainpage {
+	position: relative;
+	padding: 50px;
+	text-align: center;
+	color:#512b81;
+	font-size: 20px;
+}
