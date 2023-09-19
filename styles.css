@@ -1,0 +1,5 @@
+/* Reset default styles */
+html, body, ul {
+	margin: 0;
+	padding: 0;
+}
